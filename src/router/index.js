@@ -2,11 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import InfoPage from "@/pages/InfoPage.vue";
 const routes = [
   {
-    path: '/',
-    redirect: '/info',
-  },
-  {
-    path: "/info",
+    path: "/",
     name: "InfoPage",
     component: InfoPage,
   },

@@ -70,7 +70,7 @@
             <div class="circle">3<br>해지 완료</div>     
         </div>
     </div>
-    <router-link to="/signup" class="signup-button">가입하기</router-link> 
+    <a href="http://ucloud.advancd.ai/LoginJoin" class="signup-button">가입하기</a> 
 </template>
   
 <script>
@@ -94,10 +94,10 @@ export default {
   
 <style scoped>
 .info-container{
-    min-width: 1000px;
     font-family: 'NanumSquare';
 }
 .sub-visual {
+    min-width: 1000px;
     background-image: url(../assets/sub_visual02.png);
     background-position: center top;
     background-size: cover;
