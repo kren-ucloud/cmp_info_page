@@ -70,7 +70,7 @@
             <div class="circle">3<br>해지 완료</div>     
         </div>
     </div>
-    <router-link to="/signup" class="signup-button">가입하기</router-link> 
+    <a href="http://ucloud.advancd.ai/LoginJoin" class="signup-button">가입하기</a> 
 </template>
   
 <script>
