@@ -1,8 +1,8 @@
 <template>  
-    <HomeHeader/> 
+    <!--HomeHeader/--> 
     <div class="info-container">
         <div class="sub-visual">
-            <h2 class="sub-title">CMP 서비스</h2>
+            <h2 class="sub-title">한국교육정보화재단<br>클라우드 프로그램</h2>
         </div>              
         <div class="about-container">
             <h2>💡클라우드 관리 플랫폼(CMP)이란?</h2>
@@ -74,11 +74,11 @@
 </template>
   
 <script>
-import HomeHeader from "../components/Header.vue";
+//import HomeHeader from "../components/Header.vue";
 export default {
     name: 'InfoPage',
     components: {
-        HomeHeader
+        //HomeHeader
     },
     data() {
         return {
@@ -94,6 +94,7 @@ export default {
   
 <style scoped>
 .info-container{
+    min-width: 1000px;
     font-family: 'NanumSquare';
 }
 .sub-visual {
@@ -108,7 +109,7 @@ export default {
     position: absolute;
 }
 .sub-title {
-    margin-top: 200px;
+    margin-top: 150px;
     text-align: center;
     font-size: 3.5rem;
     color: #fff;
@@ -189,6 +190,7 @@ export default {
 .signup-button:hover {
     background-color: #2f1976;
 }
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
 </style>
 
 
